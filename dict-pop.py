@@ -17,4 +17,3 @@ for name in s_list:
     result[name] = result[name] + 1
 for name,value in result.items():
     print(name + "=" + str(value))
-    
