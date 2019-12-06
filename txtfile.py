@@ -1,0 +1,8 @@
+f = open("d:\\abc.txt","wt",encoding="UTF-8")
+f.write("abc\n")
+f.write("efg\n")
+f.close()
+f = open("d:\\abc.txt","rt",encoding="UTF-8")
+aa = f.read()
+f.close()
+print(aa)
